@@ -1,0 +1,27 @@
+{
+	  // User public static files should be placed into
+    //   ${packages}/User/OmniMarkupPreviewer/public/
+    // User templates should be placed into:
+    //   ${packages}/User/OmniMarkupPreviewer/templates/
+    // Requires browser reload
+    // Built-in templates: github, github-v1
+    "html_template_name": "github-v1",
+      "export_options" : {
+        // follow "html_template_name" rules
+        // Built-in templates: github-export, github-v1-export
+        "template_name": "github-v1-export",
+        // ".":  export to the same folder as markup file.
+        // null: export to system temp folder.
+        // NOTE: folder shall exist, or it will fallback to system temp folder.
+        "target_folder": ".",
+        // format string for filename timestamp
+        "timestamp_format" : "_%y%m%d%H%M%S",
+        "copy_to_clipboard": false,
+        // Open with default browser or whatever customized in "browser_command".
+        "open_after_exporting": false
+    },
+    "extensions": ["extra","toc","smarty","superscript","tables", "strikeout", "fenced_code", "codehilite"],
+    "renderer_options-MarkdownRenderer": {
+        "extensions": ["tables", "fenced_code", "codehilite"]
+    }
+}
