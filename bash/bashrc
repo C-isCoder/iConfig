@@ -19,7 +19,7 @@ export GOROOT=/usr/local/go
 #GOPATH
 export GOPATH=/Users/icong/go
 
-#GOBIN bee
+#GOBIN
 export PATH=${PATH}:$GOPATH/bin
 export PATH=${PATH}:$GOROOT/bin
 
