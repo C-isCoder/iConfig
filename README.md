@@ -1,13 +1,26 @@
 # iConfig
-SubmileText  VisualStudioCode  AndroidStudio 配置信息
 
-## SubmileText
+> zsh、bash、vim、Goland、AndroidStudio 配置信息
 
-SubmileText `replace` -> `User: C:\Users\iCong\AppData\Roaming\Sublime Text 3`
+## zsh
+
+zsh `replace` -> `~/.zshrc`
+
+## bash
+
+bash `replace` -> `~/.bash_profile`
+
+## vim
+
+Vim `replace` -> `~/.vimrc`
 
 ## AndroidStudio
 
-Settings: `File` -> `import settings` -> select `Settings.jar`
+Settings: `File` -> `import settings` -> select `android studio setting file.jar`
+
+## Goland
+
+Settings: `File` -> `import settings` -> select `goland setting file.jar`
 
 ## Visual Studio Code
 
