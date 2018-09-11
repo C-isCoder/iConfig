@@ -164,8 +164,8 @@ export GRADLE_HOME=/Applications/Android\ Studio.app/Contents/gradle/gradle-4.1
 export PATH=${PATH}:${GRADLE_HOME}/bin
 
 #NDK 
-export ANDROID_NDK_HOME=/Users/icong/Library/Android/sdk
-export PATH=${PATH}:${ANDROID_NDK_HOME}/ndk-bundle
+export ANDROID_NDK_HOME=/Users/icong/Library/Android/sdk/ndk-bundle
+export PATH=${PATH}:${ANDROID_NDK_HOME}
 
 #SVN
 export PATH=${PATH}:/opt/subversion/bin
@@ -184,8 +184,8 @@ export PATH=${PATH}:/usr/local/bin
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
-export PATH=${PATH}:/Library/Frameworks/Python.framework/Versions/3.6/bin
-alias python='python3'
+# export PATH=${PATH}:/Library/Frameworks/Python.framework/Versions/3.6/bin
+# alias python='python3'
 
 # Flutter
 export PATH=${PATH}:/Users/icong/flutter/bin
