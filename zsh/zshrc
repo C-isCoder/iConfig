@@ -152,6 +152,7 @@ alias -s bz2='tar -xjvf'
 alias openproxy='export http_proxy=http://127.0.0.1:1087 https_proxy=http://127.0.0.1:1087' # 开启代理
 alias closeproxy='unset http_proxy https_proxy' # 关闭代理
 alias gg='git lg' # git 历史
+alias ggs='git lg --stat' # git 历史详细
 # autojump
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 # 环境变量
