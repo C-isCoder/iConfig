@@ -130,12 +130,12 @@ source ~/Project/powerlevel9k/powerlevel9k.zsh-theme
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cls='clear'
-alias ll='ls -l'
-alias la='ls -a'
-alias vi='vim'
+alias zshconfig="mate ~/.zshrc"               #打开zsh配置文件
+alias ohmyzsh="mate ~/.oh-my-zsh"             
+alias cls='clear'                             #清屏
+alias ll='ls -l'                              #ls 详细信息
+alias la='ls -a'                              #ls 隐藏文件
+alias vi='vim'                                
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
 alias -s html=mate   # 在命令行直接输入后缀为 html 的文件名，会在 TextMate 中打开
@@ -150,7 +150,8 @@ alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 alias openproxy='export http_proxy=http://127.0.0.1:1087 https_proxy=http://127.0.0.1:1087' # 开启代理
-alias closeproxy='unset http_proxy https_proxy'    			                  # 关闭代理
+alias closeproxy='unset http_proxy https_proxy' # 关闭代理
+alias gg='git lg' # git 历史
 # autojump
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 # 环境变量
