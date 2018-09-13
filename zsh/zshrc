@@ -156,6 +156,7 @@ alias gg='git lg' # git 历史
 alias ggs='git lg --stat' # git 历史详细
 alias ggp='git lg -p' # git 提交变更详细信息
 alias gga='git lg --all' # 显示所有分之的提交历史信息
+alias gac='git add . && git commit -m' # add 所有改动并提交
 # autojump
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 
