@@ -124,11 +124,12 @@ POWERLEVEL9K_CUSTOM_GOLANG_BACKGROUND="cyan"
 POWERLEVEL9K_MODE='nerdfont-complete'
 source ~/Project/powerlevel9k/powerlevel9k.zsh-theme
 
+
+# 别名
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
 # Example aliases
 alias zshconfig="mate ~/.zshrc"               #打开zsh配置文件
 alias ohmyzsh="mate ~/.oh-my-zsh"             
@@ -157,6 +158,8 @@ alias ggp='git lg -p' # git 提交变更详细信息
 alias gga='git lg --all' # 显示所有分之的提交历史信息
 # autojump
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
+
+
 # 环境变量
 #ANDROID SDK
 export ANDROID_HOME=/Users/icong/Library/Android/sdk
