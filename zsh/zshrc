@@ -152,10 +152,7 @@ alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 alias openproxy='export http_proxy=http://127.0.0.1:1087 https_proxy=http://127.0.0.1:1087' # 开启代理
 alias closeproxy='unset http_proxy https_proxy' # 关闭代理
-alias gg='git lg' # git 历史
-alias ggs='git lg --stat' # git 历史详细
-alias ggp='git lg -p' # git 提交变更详细信息
-alias gga='git lg --all' # 显示所有分之的提交历史信息
+# Git
 alias gac='git add . && git commit -m' # add 所有改动并提交
 alias gpm='git push origin master' # push master
 alias gp='git push origin' # push 
@@ -185,7 +182,7 @@ export PATH=${PATH}:/opt/subversion/bin
 #GOROOT
 export GOROOT=/usr/local/go
 #GOPATH
-export GOPATH=/Users/icong/go
+export GOPATH=/Users/icong/Project/go
 
 #GOBIN
 export PATH=${PATH}:$GOPATH/bin
@@ -200,7 +197,7 @@ export PATH=${PATH}:/usr/local/bin
 # alias python='python3'
 
 # Flutter
-export PATH=${PATH}:/Users/icong/flutter/bin
+export PATH=${PATH}:/Users/icong/Project/flutter/bin
 
 # Flutter 国内内镜像
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
