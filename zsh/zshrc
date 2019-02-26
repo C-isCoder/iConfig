@@ -163,6 +163,10 @@ alias gpum='git pull origin master' #pull master
 
 
 # 环境变量
+# brew 软件位置
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=${PATH}:/usr/local/bin
+
 #ANDROID SDK
 export ANDROID_HOME=/Users/icong/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
@@ -179,17 +183,9 @@ export PATH=${PATH}:${ANDROID_NDK_HOME}
 #SVN
 export PATH=${PATH}:/opt/subversion/bin
 
-#GOROOT
-export GOROOT=/usr/local/go
 #GOPATH
 export GOPATH=/Users/icong/Project/go
 
-#GOBIN
-export PATH=${PATH}:$GOPATH/bin
-export PATH=${PATH}:$GOROOT/bin
-
-#brew
-export PATH=${PATH}:/usr/local/bin
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
@@ -200,13 +196,17 @@ export PATH=${PATH}:/usr/local/bin
 export PATH=${PATH}:/Users/icong/Project/flutter/bin
 
 # Flutter 国内内镜像
-export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
 
 # Dart
 export PATH=${PATH}:/Users/icong/flutter/bin/cache/dart-sdk/bin
 
 # ruby rbenv
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
 eval "$(rbenv init -)"
 
 # shell 脚本 set -x 调试修改

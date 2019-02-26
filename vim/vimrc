@@ -16,6 +16,8 @@ Plug 'mhinz/vim-signify'              " signify uses the sign column to indicate
 Plug 'vim-airline/vim-airline'        " lean status bar
 Plug 'vim-airline/vim-airline-themes' " lean status bar themes
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'Valloric/YouCompleteMe',        " code complete
 
 call plug#end()
 " ----- plug-vim end -----
