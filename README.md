@@ -21,7 +21,3 @@ Settings: `File` -> `import settings` -> select `android studio setting file.jar
 ## Goland
 
 Settings: `File` -> `import settings` -> select `goland setting file.jar`
-
-## Visual Studio Code
-
-VisualCode: `replace` -> `C:\Users\iCong\.vscode`
