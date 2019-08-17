@@ -17,7 +17,8 @@ Plug 'vim-airline/vim-airline'        " lean status bar
 Plug 'vim-airline/vim-airline-themes' " lean status bar themes
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'Valloric/YouCompleteMe',        " code complete
+" Plug 'Valloric/YouCompleteMe',        " code complete
+Plug 'zxqfl/tabnine-vim',             " ai code complete
 
 call plug#end()
 " ----- plug-vim end -----
@@ -76,6 +77,8 @@ nnoremap <leader>e :NERDTreeToggle<cr>
 let NERDTreeShowHidden=1                        " show hidden files by default
 let g:NERDTreeWinSize=50                        " set the width for the navigation panel
 
+" ---- delete set -----
+set backspace=2
 
 " ----- Airline -----
 let g:airline#extensions#tabline#enabled = 0    " disable smart tabline
